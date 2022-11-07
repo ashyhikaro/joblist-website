@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/job-list.github.io/static/css/main.1da5e0ca.css",
+    "main.js": "/job-list.github.io/static/js/main.53def902.js",
+    "static/media/Map.png": "/job-list.github.io/static/media/Map.05ab15ac4200a249f7c3.png",
+    "static/media/ProximaNovaT-Thin.woff": "/job-list.github.io/static/media/ProximaNovaT-Thin.0faaabde0ab1027e87c6.woff",
+    "index.html": "/job-list.github.io/index.html",
+    "main.1da5e0ca.css.map": "/job-list.github.io/static/css/main.1da5e0ca.css.map",
+    "main.53def902.js.map": "/job-list.github.io/static/js/main.53def902.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1da5e0ca.css",
+    "static/js/main.53def902.js"
+  ]
+}
