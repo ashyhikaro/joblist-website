@@ -24,7 +24,7 @@ interface JobDetailsPage {
 
 const JobDetailsPage: React.FunctionComponent<JobDetailsPage> = ({currentJob}) => {
     const navigate = useNavigate()
-    
+
     if(currentJob.title) {localStorage.setItem('job', JSON.stringify({...currentJob}))}
     const [job] = useState(currentJob.title ? currentJob : JSON.parse(localStorage.getItem('job') || '{}'))
 
@@ -176,7 +176,7 @@ const JobDetailsPage: React.FunctionComponent<JobDetailsPage> = ({currentJob}) =
                     <h2 className='contacts_title text-[#3A4562] pb-2 border-b border-[#3A4562]/[.13]'>Contacts</h2>
                     <div className="info_card bg-cover bg-no-repeat bg-top bg-[#2A3047] rounded-t-lg" >
                         <h2 className="departament-name relative text-[#E7EAF0] pb-1">Departament name. {job.name}</h2>
-                        <div className="text-info flex gap-2 text-[#E8EBF3] relative -left-5"><img src={LocationIcon} alt="location icon" className='mt-1 w-[13px] h-[18px]'/><p>{currentJob.address}</p></div>
+                        <div className="text-info flex gap-2 text-[#E8EBF3] relative -left-5"><img src={LocationIcon} alt="location icon" className='mt-1 w-[13px] h-[18px]'/><p>{job.address}</p></div>
                         <p className="text-info relative text-[#E8EBF3]">{job.phone}</p>
                         <p className="text-info relative text-[#E8EBF3]">{job.email}</p>
                         <img src={Circle} alt="" className='circle'/>
