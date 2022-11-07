@@ -1,0 +1,29 @@
+.pagination_container {
+    box-shadow: 2px 1px 7px rgba(0, 0, 0, 0.08), 0px 2px 1px -1px rgba(0, 0, 0, 0.04), 0px 1px 3px rgba(0, 0, 0, 0.12);
+    border-radius: 10.4px;
+    height: 52px;
+    width: fit-content;
+}
+
+.pagination {
+    height: 100%;
+    max-width: 100vw;
+}
+
+.page_item {
+    height: 100%;
+}
+
+.page_link {
+    font-weight: 700;
+    font-size: 20.8px;
+    line-height: 25px;
+    letter-spacing: 1.73333px;
+    color: #70778B;
+    height: 100%;
+}
+
+.page_link_active {
+    color: #5876C5;
+    border-bottom: 2.6px solid #5876C5;
+}

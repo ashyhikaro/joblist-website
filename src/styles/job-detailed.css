@@ -1,0 +1,322 @@
+.job_details_page {
+    padding: 56px 0 162px 10%;
+}
+
+.page_container {
+    margin-bottom: 90px;
+}
+
+.main {
+    width: 58%;
+    margin-right: 8%;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: 0.413333px;
+}
+
+header {
+    padding-bottom: 10px;
+    margin-bottom: 40px;
+}
+
+.btn_title {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.5625px;
+    font-stretch: 100;
+}
+
+.apply__btn {
+    padding: 18px 30px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    border-radius: 8px;
+    margin-bottom: 32px;
+}
+
+.job__information_header h2 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: -0.75px;
+}
+
+.salary_value {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: -0.625px;
+}
+
+.salary_currency {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.5625px;
+}
+
+.posted_date {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.5625px;
+    color: rgba(56, 65, 93, 0.355988);
+}
+
+.discription_title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: -0.625px;
+}
+
+.discription_about {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.5625px;
+}
+
+.benefit div{
+    width: 9px;
+    height: 9px;
+    background: rgba(56, 69, 100, 0.632594);
+    display: inline-block;
+}
+
+.benefit div{
+    position: absolute;
+    top: 8px;
+    left: -15px;
+}
+
+.job__additional {
+    margin-top: 60px;
+}
+
+.head_title {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: 0.413333px;
+}
+
+.employment__type_title, .employment__benefit_title {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.5625px;
+}
+
+.type {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: -0.457143px;
+    background: rgba(161, 177, 219, 0.317343);
+    border: 1px solid rgba(85, 105, 158, 0.3);
+    border-radius: 8px;
+    padding: 17px 0 17px 0;
+}
+
+.emp_benefit {
+    background: rgba(255, 207, 0, 0.15);
+    border: 1px solid #FFCF00;
+    border-radius: 8px;
+    padding: 17px 0 17px 0;
+}
+
+.arrow {
+    width: 12px;
+    height: 12px;
+    border-top: 3px solid #384564;
+    border-right: 3px solid #384564;
+    margin-right: 20px;
+    transform: rotate(-135deg);
+    display: inline-block;
+}
+
+.return_btn p {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    color: #3A4562;
+}
+
+.return_btn {
+    position: relative;
+    left: -8%;
+}
+
+.departament-name {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: -0.625px;
+    z-index: 10;
+}
+
+.text-info {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.5625px;
+    word-wrap: break-word;
+    z-index: 10;
+}
+
+.info-panel {
+    width: 25%;
+    height: auto;
+}
+
+.info_title {
+    width: 70%;
+}
+
+.info_card {
+    padding: 10% 20% 10% 25%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.contacts_title {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: 0.413333px;
+    margin: 60px 0 20px 0;
+}
+
+.contacts_title {
+    display: none;
+}
+
+.circle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 110%;
+    z-index: 1;
+}
+
+@media (max-width: 1100px) and (min-width: 800px) {
+    .text-info {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 825px) {
+    .info_card {
+        padding: 10% 18% 10% 18%;
+    }
+}
+
+@media (max-width: 800px) {
+    .main header {
+        display: block;
+        border: none;
+    }
+
+    .title {
+        border-bottom: 1px solid rgba(58, 69, 98, 0.13);
+        padding-bottom: 15px;
+        margin-bottom: 20px;
+    }
+
+    .apply__btn:first-of-type {
+        display: none;
+    }
+
+    .btn_container .apply__btn:first-of-type {
+        display: block;
+    }
+
+    .apply__btn {
+       margin: auto;
+    }
+
+    .job__information_header {
+        display: block;
+        position: relative;
+    }
+
+    .info_title {
+        width: 100%;
+        margin-bottom: 8px;
+    }
+
+    .posted_date {
+        margin-top: 18px;
+        margin-bottom: 28px;
+    }
+
+    .salary {
+        display: flex;
+        flex-direction: column-reverse;
+        position: absolute;
+        right: 0;
+    }
+
+    .job_details_page {
+        padding-bottom: 38px;
+    }
+
+    .return_btn {
+        display: none;
+    }
+
+    .page_container {
+        margin-bottom: 0;
+    }
+
+    .contacts_title {
+        display: block;
+    }
+
+    .departament-name {
+        margin-bottom: 20px;
+    }
+
+    .text-info {
+        margin-bottom: 8px;
+    }
+
+    .page_container {
+        display: block;
+    }
+
+    .info-panel {
+        width: auto;
+        margin-right: 8%;
+    }
+
+    .info_card {
+        width: 100%;
+    }
+
+    .main {
+        width: auto;
+    }
+
+    .images {
+        overflow: scroll;
+    }
+
+    .images img {
+        min-width: 210px;
+    }
+
+    .wrap_container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
