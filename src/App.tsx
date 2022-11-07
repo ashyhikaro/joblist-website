@@ -8,10 +8,10 @@ const App: React.FunctionComponent = () => {
 
   return (
     <HashRouter>
-        <Routes>
-          <Route path="/" element={<JobsList setCurrentJob={setCurrentJob}/>} />
-          <Route path="detailed" element={<JobDetailsPage currentJob={currentJob}/>} />
-        </Routes>
+      <Routes>
+        <Route path="/" element={<JobsList setCurrentJob={setCurrentJob}/>} />
+        <Route path="detailed" element={<JobDetailsPage currentJob={currentJob}/>} />
+      </Routes>
     </HashRouter>
   );
 }

@@ -4,9 +4,10 @@
 
 @font-face {
   font-family: 'Proxima Nova';
-  src: url('../fonts/ProximaNovaT-Thin.woff') format('woff'),
+  src: url('../fonts/ProximaNova-Regular.woff') format('woff');
 }
 
 body {
   background: #F5F5F5;
+  font-family: 'Proxima Nova';
 }
