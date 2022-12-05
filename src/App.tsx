@@ -1,7 +1,8 @@
 import JobsList from './components/JobsList';
-import JobDetailsPage  from './components/jobDetailsPage';
+// import JobDetailsPage from './components/JobDetailsPage';
 import { useState } from 'react';
 import { Routes, Route, HashRouter } from 'react-router-dom'
+import JobDetailsPage from './components/JobDetailsPage';
 
 const App: React.FunctionComponent = () => {
   const [currentJob, setCurrentJob] = useState({})
@@ -10,7 +11,7 @@ const App: React.FunctionComponent = () => {
     <HashRouter>
       <Routes>
         <Route path="/" element={<JobsList setCurrentJob={setCurrentJob}/>} />
-        <Route path="detailed" element={<JobDetailsPage currentJob={currentJob}/>} />
+        <Route path="detailed" element={<JobDetailsPage currentJob={currentJob} />} />
       </Routes>
     </HashRouter>
   );
