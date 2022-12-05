@@ -1,5 +1,4 @@
 import JobsList from './components/JobsList';
-// import JobDetailsPage from './components/JobDetailsPage';
 import { useState } from 'react';
 import { Routes, Route, HashRouter } from 'react-router-dom'
 import JobDetailsPage from './components/JobDetailsPage';
